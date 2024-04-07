@@ -1,4 +1,4 @@
-# 2024 ICP Korea Hacker House
+# 2024 ICP Hong Kong Hacker House
 
 ## Content
 - [Hack-Challenges](#hack-challenges)
@@ -15,7 +15,7 @@
 
 ### Tracks
 
-Here are the four different tracks we have open and some example ideas you can
+Here are the two different tracks we have open and some example ideas you can
 inspire yourself from/copy
 
 #### xChain dapps  - Total Prize pool of USD 5k
