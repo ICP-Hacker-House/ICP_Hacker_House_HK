@@ -194,6 +194,7 @@ Ask your hacker house mentor
 
 ## Submission
 To submit a project for the hackathon - open an [Issue](https://github.com/ICP-Hacker-House/ICP_Hacker_House_HK/issues) on this repository before the deadline.
+Set the title of the Issue to the name of your project.
 See an example submission [here](https://github.com/ICP-Hacker-House/ICP_Hacker_House_HK/issues/1)
 In order for your submission to be considered, include the following things in the Issue description:
 
