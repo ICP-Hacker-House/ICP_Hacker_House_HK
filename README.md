@@ -60,8 +60,15 @@ possible directions you could take
 
 
 ## Resources
+
+
+### Get Started here with macOS, Windows and Linux:
+- [Azle (TypeScript) Backend and React Frontend](https://github.com/fxgst/azle-react)
+- [Rust Backend and React Frontend, with connection to Ethereum](https://github.com/fxgst/evm-rpc-rust)
+
+  
 ### General
-- [101 Tutorial](https://dacade.org/ko/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)
+- [101 Azle Tutorial](https://dacade.org/zh/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)
 - [ICP Hackathon Cheatsheet](https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c)
 - [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
 - [ICP Zero to Dapp Series](https://youtube.com/playlist?list=PLuhDt1vhGcrcRcHvSKmxIgJAh1b3rcR7N&si=Dy3Zm1t5oBJY916n)
@@ -71,10 +78,6 @@ possible directions you could take
 - [Various Courses in multiple languages](https://dacade.org/communities/icp)
 - [BITFINITY EVM](https://docs.bitfinity.network/)
 - [Tutorial BITFINITY](https://www.youtube.com/playlist?list=PLUDcVqFK2t-C36KaTMzV3y1wu8Hf-qyAI)
-
-### One-click development environments for macOS, Windows and Linux:
-- [Azle and React Frontend & Backend Starter](https://github.com/fxgst/azle-react)
-- [Rust, React and EVM RPC canister](https://github.com/fxgst/evm-rpc-rust)
   
 
 ### Cycles
@@ -82,7 +85,7 @@ possible directions you could take
 Ask your hacker house mentor
 
 ## Submission
-To submit a project for the hackathon - open an [Issue](https://github.com/ICP-Hacker-House/ICP_Hacker_House_HK/issues) on this repository before the deadline.
+To submit a project for the hackathon - open an [Issue](https://github.com/ICP-Hacker-House/ICP_Hacker_House_HK/issues/new) on this repository before the deadline.
 Set the title of the Issue to the name of your project.
 See an example submission [here](https://github.com/ICP-Hacker-House/ICP_Hacker_House_HK/issues/1)
 In order for your submission to be considered, include the following things in the Issue description:
