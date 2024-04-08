@@ -90,7 +90,7 @@ Set the title of the Issue to the name of your project.
 See an example submission [here](https://github.com/ICP-Hacker-House/ICP_Hacker_House_HK/issues/1)
 In order for your submission to be considered, include the following things in the Issue description:
 
--   link to a Github repository containing your project, code and a README.md on how to run it (main branch is considered only)
+-   link to a Github repository containing **your** project code (not just the template!) and a README.md on how to run it (main branch is considered only)
     -   your project must be built on ICP, and all code must be in the repo above
     -   No re-use of previous works and plagiarism
     -   Projects that explicitly re-used or plagiarized other works may be reported and subjected to the award cancellation
