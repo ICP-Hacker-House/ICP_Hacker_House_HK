@@ -65,6 +65,7 @@ possible directions you could take
 ### Get Started here with macOS, Windows and Linux:
 - [Azle (TypeScript) Backend and React Frontend](https://github.com/fxgst/azle-react)
 - [Rust Backend and React Frontend, with connection to Ethereum](https://github.com/fxgst/evm-rpc-rust)
+- [Motoko Backend and Vanilla JS Frontend](https://github.com/dfinity/icp-hello-world-motoko)
 
   
 ### General
