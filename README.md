@@ -23,7 +23,7 @@ inspire yourself from/copy
 
 The Internet Computer is a unique platform to build cross-chain dapps. In the
 workshops, you’ll get introduced to threshold ECDSA, the Bitcoin integration,
-ckBTC, HTTPS outcalls, and the IC-ETH-Starter template.
+ckBTC, HTTPS outcalls, and the [IC-ETH-Starter] template as an example.
 
 In this track, you are challenged to use one or more of these powerful building
 blocks to create a novel application. In the following, we have listed some
@@ -36,120 +36,9 @@ projects you could tackle.
 
 You can pick ideas from https://github.com/dfinity/grant-rfps/blob/main/requests-for-startups.md
 
-These bounties focus on adding to the IC-ETH-Starter template which is a starter
-project that uses an IC canister to verify the ownership of Ethereum NFTs:
-https://github.com/dfinity/ic-eth-starter
-
 **How to Get Started:**
-1.  Attend the Integrating with Ethereum session in the hacker house or watch this [Youtube tutorial video](https://www.youtube.com/watch?v=gEuI43g1m94) to get an overview of the IC-ETH-Starter project.
-2.  Clone/Fork the IC-ETH-Starter template.
-
-##### Add verification of ERC-20 tokens. (Beginner)
-The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. Add support for ERC-20 tokens.
-
-**Requirements:**
--   A user would input an Etherscan link to an ERC20 smart contract address in the OpenSea / Etherscan link section on the Verify page.
--   Once a user clicks on Verify Token, the app will request the user to sign and verify if the user does own a positive balance of the ERC20 token.
--   The ERC20 token verification with the user wallet address will be listed on the Home page.
-
-**Hints:**
-
--   Enable ERC-20 as a token type
-    -   Add erc20 as a token type on Line 11 in `src/services/HistoryService.ts`
--   Add a function to verify ownership of an ERC-20 token
-    -   Add a function similar to `erc721_owner_of` and `erc1155_balance_of` to check
-    for the user balance of the ERC20 token.
-
--   Enable the user to input a link from Ethereum that references an ERC20 smart contract
-    -   Adjust the `verifyNFT` function in `src/components/WalletArea.tsx` to check the user balance of the ERC20 token using the function created in Add a function to verify ownership of an ERC-20 token.
-
-[**Full Tutorial Link**](/erc20icp.md)
-
-##### Add other ownership details. (Beginner)
-
-The IC-ETH-Starter shows the NFT image, name, and link to OpenSea alongside the wallet address of the user who verified ownership of the NFT. Provide owners with other information on their verified NFTs such as:
-
--   date and time of purchase
--   the purchase amount in ETH
--   the name of the NFT collection
-
-**Requirements:**
--   Upon token verification, the verification listed on the Home page will list additional details than currently provided.
-
-**Hints:**
--   Add a function that queries additional data on NFTs
-    -   Add a function that queries additional data on NFTs in `src/components/WalletArea.tsx`
-    -   Call the function in the VerifyNFT function when verifying the ownership of the NFT
-
--   Save the data
-    -   Update the NFT type and `addNFTs` function to accept additional data that you would like to save about the ownership of the NFT
-    -   Enable verification of NFTs on other chains. (Beginner)
-
-#### Enable verification of NFTs on other chains. (Intermediate)
-
-The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs on Ethereum and its testnets (Goerli and Sepolia). Adding support for other EVM-compatible chains, such as:
-
--   Arbitrum
--   Avalanche
--   Optimism
--   Polygon
--   Binance Smart Chain
-
-**Requirements:**
--   A user can input a block explorer link to an NFT on another chain. You can optionally add a dropdown that allows the user to select the chain of the NFT that they want to verify ownership of.
--   Click "Verify Token" and sign your message.
--   The app will verify that you own the NFT.
-
-**Hints:**
-
--   Add a corresponding chain RPC
-    -   Add the corresponding chain RPC under the get_rpc_endpoint function in `canisters/ic_eth/src/eth_rpc.rs`
-
--   Adjust functions to accept the new chain
-    -   Adjust `parseOpenSeaNft` to accept a newly supported chain. Add another parse function to handle a URL link from a supported block explorer
-
-##### Create attestations during verification (Advanced)
-
-Verified owners should be able to add notes to the verification process. Upon
-verifying their NFT ownership, owners can add different notes under their
-verified NFTs. Bonus points if you can keep the notes only visible to certain
-Internet Computer principals using vetKeys.
-
-**Requirements:**
--   A user inputs the block explorer link to the NFT you want to verify and add a message.
--   Click "Verify Token" and sign your message.
--   The app will verify that you own the NFT.
--   If the verification is successful, your NFT verification details and message will be displayed on the home page.
-
-**Resources:**
-
-[vetKeys](https://internetcomputer.org/docs/current/developer-docs/integrations/vetkeys/technology-overview)
-
-##### Create a Chat Between Verified Owners of the NFTs in the same Collection (Advanced)
-Create a chat between verified owners of any NFT collection. For example, if an
-NFT owner verifies their ownership of a Bored Ape, the app will open a chat
-between any other Bored Ape owners who have verified their ownership. You can
-gamify the experience by giving the first x owners to verify their NFTs in a
-collection a special reward, such as an NFT or token.
-
-**Requirements:**
--   A chat that is only visible to wallet addresses that verified NFTs/tokens in the same collection.
-
-#### Ideas to build with the Bitcoin integration and ckBTC
-
-##### Augment PoS example to fully fledged product website - virtual store with ckBTC (Intermediate)
-Using the [POS](https://internetcomputer.org/docs/current/samples/pos) example, from the internet computer documentation. You can extend it
-to have an inventory of items and
-
-##### Add NFC payments to the PoS example dapp (Advanced)
-Extend the last POS example to request payments via NFC instead of QR code!
-
-##### File Sharing Payment (Advanced)
-Upload files locally and exchange them with various principals through ckBTC.
-
-The cli utility wrapping around dfx should upload binary blob with a hash -
-anyone should be able buy a hash for a given amount - would get copied to their own storage canister - which they would be allowed to download.
-
+1.  Attend the coding and tutorial sessions in the hacker house if you prefer to develop in Type Script; 
+2.  Or if you are already a Rust or Motoko developer, watch this [Youtube tutorial video](https://www.youtube.com/watch?v=gEuI43g1m94) to get an overview of the [IC-ETH-Starter] project.
 
 #### Fully on-chain dapps - Total Prize pool of USD 5k
 
@@ -234,3 +123,6 @@ The winner(s) of each track will then present their project on stage.
     -   How well did you utilize the superpowers of the Internet Computer?
 
 [DFINITY Hackathon Terms and Conditions](https://www.notion.so/dfinityorg/DFINITY-HACKATHON-TERMS-AND-CONDITIONS-Fully-On-Chain-with-ICP-1faf692d49a64c89afb5589a7219eee2?pvs=4)
+
+
+[IC-ETH-Starter]: https://github.com/dfinity/ic-eth-starter
