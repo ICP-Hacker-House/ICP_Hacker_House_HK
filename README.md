@@ -184,7 +184,6 @@ possible directions you could take
 - [Tutorial BITFINITY](https://www.youtube.com/playlist?list=PLUDcVqFK2t-C36KaTMzV3y1wu8Hf-qyAI)
 
 ### One-click development environments for macOS, Windows and Linux:
-- [101 Tutorial with Azle](https://github.com/dacadeorg/icp-message-board-contract)
 - [Azle and React Frontend & Backend Starter](https://github.com/fxgst/azle-react)
 - [Rust, React and EVM RPC canister](https://github.com/fxgst/evm-rpc-rust)
   
@@ -194,13 +193,12 @@ possible directions you could take
 Ask your hacker house mentor
 
 ## Submission
-To submit a project for the hackathon - raise a pull request and  every commit
-before the deadline will be considered.
+To submit a project for the hackathon - open an [Issue](https://github.com/ICP-Hacker-House/ICP_Hacker_House_HK/issues) on this repository before the deadline.
 
-Your submission needs to be in `submissions/`
+In order for your submission to be considered, include the following things in the Issue description:
 
-In order for your PR to be considered you need to have a `README.md` file at the
-root of the repository which contains:
+-   link to a Github repository containing your project, code and a README.md on how to run it (main branch is considered only)
+-   you can also include a video to showcase your project
 -   project description
 -   track
 -   team participants
