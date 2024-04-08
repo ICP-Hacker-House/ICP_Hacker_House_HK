@@ -94,7 +94,7 @@ In order for your submission to be considered, include the following things in t
 -   team participants
     -   please use GitHub username for everyone
     -   Discord IDs
--   canister ID(s) of mainnet deployment
+-   link to canister on mainnet (e.g. `https://5zugh-4yaaa-aaaag-qjqra-cai.raw.icp0.io`)
 -   feedback part
     -   what have you learned
     -   what were the challenges you ran into
