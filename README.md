@@ -88,9 +88,12 @@ See an example submission [here](https://github.com/ICP-Hacker-House/ICP_Hacker_
 In order for your submission to be considered, include the following things in the Issue description:
 
 -   link to a Github repository containing your project, code and a README.md on how to run it (main branch is considered only)
+    -   your project must be built on ICP, and all code must be in the repo above
+    -   No re-use of previous works and plagiarism
+    -   Projects that explicitly re-used or plagiarized other works may be reported and subjected to the award cancellation
 -   you can also include a video to showcase your project
 -   project description
--   track
+-   what track you want to apply for
 -   team participants
     -   please use GitHub username for everyone
     -   Discord IDs
